@@ -1,0 +1,50 @@
+/* styling the body */
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 1;
+}
+/* styling the title font  */
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-bottom: 5px;
+}
+/* main pic */
+.image{
+    padding-top :10px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    text-shadow: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* the first text basically our intro */
+.first_sentence{
+    padding-top: 20px;
+    font-size: 22px;
+    text-align: center;
+}
+/* 
+the "completed assignments" */
+.list{
+    padding-top: 40px;
+    padding-left:30vh;
+    font-size: 24px;
+}
+/* the sublists */
+.completed_assign_list{
+    padding-top: 15px;
+    padding-left:50px;
+    font-size:20px;
+}
+/* cool color changer when you hover */
+.links:hover{
+    color:rgb(145, 35, 35);
+}
+/* styling the mail */
+.email{
+    font-size:22px;
+}
